@@ -1,0 +1,42 @@
+body {
+  padding: 15px;
+  min-width: 460px;
+  max-width: 500px;
+}
+.flex-container {
+  padding: 0;
+  margin: 0 auto;
+
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flex-item {
+  background: white;
+  width: 50%;
+  height: 100%;
+  margin: 5px;
+  
+  line-height: 35px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+img {
+  width: 270px;
+  height: 270px;
+}
+img h1{
+  padding-left: 15px;
+}
