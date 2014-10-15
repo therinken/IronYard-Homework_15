@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   padding: 15px;
   min-width: 460px;
@@ -19,9 +23,22 @@ body {
   justify-content: flex-start;
 }
 
-.flex-item {
+.flex-item-left {
   background: white;
-  width: 50%;
+  width: 25%;
+  height: 100%;
+  margin: 5px;
+  
+  line-height: 35px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.flex-item-right {
+  background: white;
+  width: 75%;
   height: 100%;
   margin: 5px;
   

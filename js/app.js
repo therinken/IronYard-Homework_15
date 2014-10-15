@@ -27,12 +27,12 @@ RepoMan.prototype.loadTemplateFile = function(templateName) {
 RepoMan.prototype.putProfileDataOnPage = function(profileHtml, profile) {
     var d = new Date(profile.created_at);
     profile.joined = ["Joined on ", d.toDateString()].join("");
-    document.querySelector('.left-column').innerHTML = _.template(profileHtml, profile);
+    document.querySelector('.flex-item-left').innerHTML = _.template(profileHtml, profile);
 };
 
 RepoMan.prototype.putRepoDataOnPage = function(repoHtml, repos) {
-	console.log(repos)
-    document.querySelector('.right-column').innerHTML =
+    console.log(repos)
+    document.querySelector('.flex-item-right').innerHTML =
         repos.sort(function(a, b) {
             var firstDate = new Date(a.updated_at),
                 secondDate = new Date(b.updated_at);
