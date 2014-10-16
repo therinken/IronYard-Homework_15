@@ -1,5 +1,6 @@
 body {
   margin-left:85px;
+  margin-top: 20px;
 }
 
 .flex-container {
@@ -22,36 +23,46 @@ body {
   background: white;
   height: 100%;
   margin: 5px;
-  
+  padding: 2px 0 2px 24px;
   line-height: 35px;
-  color: black;
+  color: #333;
   font-size: 1em;
   text-align: left;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  
 }
 .flex-item-right {
   background: white;
   height: 100%;
-  margin: 5px;
+  margin-left: 15px;
   line-height: 35px;
-  color: black;
+  color: #333;
   font-size: 1em;
   text-align: left;
-  border-bottom: 1px solid #696969;
 }
 
 img {
-  width: 230px;
-  height: 230px;
+  width: 260px;
+  height: 260px;
   border-radius: 5px;
 }
-h5{
-  display: block;
+h4{
 overflow: hidden;
 width: 100%;
-font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 24px;
 color: #666;
 text-overflow: ellipsis;
+}
+a:link {
+  text-decoration: none;
+  color: #4183c4;
+  font-weight: bold;
+  font-size: 1em;
+
+}
+hr {
+  color: #eeeeee;
 }
