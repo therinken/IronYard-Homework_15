@@ -26,9 +26,10 @@ body {
   height: 100%;
   margin: 5px;
   padding: 2px 0 2px 24px;
-  line-height: 35px;
+  line-height: 25px;
   color: #333;
-  font-size: 1em;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: .93em;
   text-align: left;
   font-weight: lighter;
   text-overflow: ellipsis;
@@ -45,18 +46,22 @@ body {
 }
 
 img {
-  width: 260px;
-  height: 260px;
-  border-radius: 5px;
+  width: 230px;
+  height: 230px;
+  border-radius: 6px;
+}
+h3{
+  color: #333;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1.6em;
 }
 h4{
 overflow: hidden;
 width: 100%;
 font-style: normal;
-font-weight: 300;
+font-weight: 100;
 line-height: 24px;
 color: #666;
-text-overflow: ellipsis;
 }
 a:link {
   text-decoration: none;
@@ -64,6 +69,12 @@ a:link {
   font-weight: bold;
   font-size: 1em;
 
+}
+.flex-item-left a:link {
+  text-decoration: none;
+  color: #4183c4;
+  font-weight: lighter;
+  font-size: 1em;
 }
 hr {
   color: #eeeeee;
