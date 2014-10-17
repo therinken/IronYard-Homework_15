@@ -20,7 +20,7 @@ body {
     list-style: none;
     background: white;
     height: 100%;
-    margin: 0;
+    margin-left: -35px;
     padding: 2px 0px 2px 0px;
     line-height: 25px;
     color: #333;
@@ -34,7 +34,7 @@ body {
 
 .flex-item-right {
     background: white;
-    min-width: 900px;
+    min-width: 700px;
     margin-left: 15px;
     height: 100%;
     padding-top: 10px;

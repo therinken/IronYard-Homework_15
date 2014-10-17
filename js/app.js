@@ -28,6 +28,20 @@ RepoMan.prototype.putProfileDataOnPage = function(profileHtml, profile) {
     var d = new Date(profile.created_at);
     profile.joined = ["Joined on ", d.toDateString()].join("");
     document.querySelector('.flex-item-left').innerHTML = _.template(profileHtml, profile);
+    $('#envelope').iconify({
+    color: "#3e3e3e", // default: "red"
+    hoverColor: "#448cd5", // default: "blue"
+    size: "15", // default: "28"
+    animate: true, // default: true
+    animateMultiplier: 1.2 // default: 1.5
+});
+    $('#tumblr-square').iconify({
+    color: "#3e3e3e", // default: "red"
+    hoverColor: "#448cd5", // default: "blue"
+    size: "15", // default: "28"
+    animate: true, // default: true
+    animateMultiplier: 1.2 // default: 1.5
+});
 };
 
 RepoMan.prototype.putRepoDataOnPage = function(repoHtml, repos) {
